@@ -15,7 +15,7 @@ Material:
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses: []
@@ -93,15 +93,23 @@ Material:
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
     - _Glossiness: 0
+    - _GlossinessSource: 0
     - _GlossyReflections: 1
+    - _GradientScale: 10
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _OffsetSpeed: 0
     - _Parallax: 0.02
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _ScrollSpeed: 1
+    - _Shininess: 0
     - _Smoothness: 0.791
+    - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
+    - _SpecSource: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
@@ -113,6 +121,8 @@ Material:
     - _Color: {r: 0.76494026, g: 1, b: 0, a: 1}
     - _EmissionColor: {r: 0.05271925, g: 0.8962264, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _TinColor: {r: 0.12705785, g: 0.9716981, b: 0.03208439, a: 0}
+    - _Tint: {r: 0, g: 1, b: 0.100193255, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8613536726376631919
 MonoBehaviour:
